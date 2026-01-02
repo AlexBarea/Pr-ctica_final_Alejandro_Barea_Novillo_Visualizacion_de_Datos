@@ -1,7 +1,6 @@
 ---
 title: "Práctica final - Visualización de datos - Análisis de telemetría F1"
 author: "Alejandro Barea Novillo"
-output: html_document
 ---
 
 ## Descripción del proyecto
