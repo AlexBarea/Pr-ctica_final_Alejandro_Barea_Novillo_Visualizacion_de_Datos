@@ -30,24 +30,24 @@ realizan distintas visualizaciones para estudiar:
 
 Instalación de `uv`:
 - Abrir terminal (CTRL+ñ en caso de VScode)
-```bash
-pip install uv
+
+`pip install uv`
 
 Para crear el entorno virtual usado ejecutamos el siguiente mandato en terminal:
 
-uv venv --python 3.12 "nombre_del_entorno"
+`uv venv --python 3.12 "nombre_del_entorno"`
 
 Este entorno es el que usaremos como Kernel en el notebook
 
 para ejecutar el entorno escribimos por terminal:
 
-"nombre_del_entorno"\Scripts\activate
+`"nombre_del_entorno"\Scripts\activate`
 
 Una vez hemos ejecutado el entorno instalamos las librerias necesarias con el archivo requirements.txt. En consola:
 
-uv pip install -r requirements.txt
+`uv pip install -r requirements.txt`
 
 Finalmente, podemos abrir el notebook y ejecutar todas las celdas para comprobar los resultados(seleccionando previamente el kernel creado). Es posible que os pida instalar ipykernel
 si el aviso no salta, la forma de instalarlo es:
 
-uv pip install ipykernel
+`uv pip install ipykernel`
